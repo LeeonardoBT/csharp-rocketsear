@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Leonardo\\Workspace\\CSharp - Rocketseat\\MyLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22D8C12A-6F06-49C8-96CD-99F4E4D687C2}|MyLibrary.csproj|c:\\users\\leonardo\\workspace\\csharp - rocketseat\\mylibrary\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D8C12A-6F06-49C8-96CD-99F4E4D687C2}|MyLibrary.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D8C12A-6F06-49C8-96CD-99F4E4D687C2}|MyLibrary.csproj|c:\\users\\leonardo\\workspace\\csharp - rocketseat\\mylibrary\\entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D8C12A-6F06-49C8-96CD-99F4E4D687C2}|MyLibrary.csproj|solutionrelative:entities\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D8C12A-6F06-49C8-96CD-99F4E4D687C2}|MyLibrary.csproj|c:\\users\\leonardo\\workspace\\csharp - rocketseat\\mylibrary\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D8C12A-6F06-49C8-96CD-99F4E4D687C2}|MyLibrary.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D8C12A-6F06-49C8-96CD-99F4E4D687C2}|MyLibrary.csproj|c:\\users\\leonardo\\workspace\\csharp - rocketseat\\mylibrary\\communication\\requests\\requestcreatebookjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D8C12A-6F06-49C8-96CD-99F4E4D687C2}|MyLibrary.csproj|solutionrelative:communication\\requests\\requestcreatebookjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22D8C12A-6F06-49C8-96CD-99F4E4D687C2}|MyLibrary.csproj|c:\\users\\leonardo\\workspace\\csharp - rocketseat\\mylibrary\\communication\\requests\\requestupdatebookjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22D8C12A-6F06-49C8-96CD-99F4E4D687C2}|MyLibrary.csproj|solutionrelative:communication\\requests\\requestupdatebookjson.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RequestUpdateBookJson.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\workspace\\CSharp - Rocketseat\\MyLibrary\\Communication\\Requests\\RequestUpdateBookJson.cs",
+              "RelativeDocumentMoniker": "Communication\\Requests\\RequestUpdateBookJson.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\workspace\\CSharp - Rocketseat\\MyLibrary\\Communication\\Requests\\RequestUpdateBookJson.cs",
+              "RelativeToolTip": "Communication\\Requests\\RequestUpdateBookJson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T00:14:01.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestCreateBookJson.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\workspace\\CSharp - Rocketseat\\MyLibrary\\Communication\\Requests\\RequestCreateBookJson.cs",
+              "RelativeDocumentMoniker": "Communication\\Requests\\RequestCreateBookJson.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\workspace\\CSharp - Rocketseat\\MyLibrary\\Communication\\Requests\\RequestCreateBookJson.cs",
+              "RelativeToolTip": "Communication\\Requests\\RequestCreateBookJson.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-16T00:04:07.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\Workspace\\CSharp - Rocketseat\\MyLibrary\\Entities\\Book.cs",
+              "RelativeDocumentMoniker": "Entities\\Book.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\Workspace\\CSharp - Rocketseat\\MyLibrary\\Entities\\Book.cs",
+              "RelativeToolTip": "Entities\\Book.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAYwCEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T01:14:33.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BookController.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\Workspace\\CSharp - Rocketseat\\MyLibrary\\Controllers\\BookController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BookController.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\Workspace\\CSharp - Rocketseat\\MyLibrary\\Controllers\\BookController.cs",
+              "RelativeToolTip": "Controllers\\BookController.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAowDAAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T01:13:26.642Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Leonardo\\Workspace\\CSharp - Rocketseat\\MyLibrary\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Leonardo\\Workspace\\CSharp - Rocketseat\\MyLibrary\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-15T01:07:53.91Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
