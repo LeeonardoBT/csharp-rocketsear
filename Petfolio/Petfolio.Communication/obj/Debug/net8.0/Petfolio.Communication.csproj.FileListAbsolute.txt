@@ -1,0 +1,12 @@
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\Petfolio\Petfolio.Communication\bin\Debug\net8.0\Petfolio.Communication.deps.json
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\Petfolio\Petfolio.Communication\bin\Debug\net8.0\Petfolio.Communication.dll
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\Petfolio\Petfolio.Communication\bin\Debug\net8.0\Petfolio.Communication.pdb
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\Petfolio\Petfolio.Communication\obj\Debug\net8.0\Petfolio.Communication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\Petfolio\Petfolio.Communication\obj\Debug\net8.0\Petfolio.Communication.AssemblyInfoInputs.cache
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\Petfolio\Petfolio.Communication\obj\Debug\net8.0\Petfolio.Communication.AssemblyInfo.cs
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\Petfolio\Petfolio.Communication\obj\Debug\net8.0\Petfolio.Communication.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\Petfolio\Petfolio.Communication\obj\Debug\net8.0\Petfolio.Communication.sourcelink.json
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\Petfolio\Petfolio.Communication\obj\Debug\net8.0\Petfolio.Communication.dll
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\Petfolio\Petfolio.Communication\obj\Debug\net8.0\refint\Petfolio.Communication.dll
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\Petfolio\Petfolio.Communication\obj\Debug\net8.0\Petfolio.Communication.pdb
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\Petfolio\Petfolio.Communication\obj\Debug\net8.0\ref\Petfolio.Communication.dll
