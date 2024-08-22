@@ -22,6 +22,9 @@ O curso de C# da Rocketseat foi projetado para fornecer uma base sólida na ling
 ### 2. MyLibrary
 - **Descrição:** Desafio prático referente ao módulo MyFirstAPI.
 
+### 3. Petfolio
+- **Descrição:** Exemplo de organização de projetos e bibliotecas.
+
 ## Como Executar
 
 Para executar qualquer um dos projetos deste repositório, siga os passos abaixo:
