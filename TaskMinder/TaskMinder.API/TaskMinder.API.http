@@ -1,0 +1,6 @@
+@TaskMinder.API_HostAddress = http://localhost:5068
+
+GET {{TaskMinder.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

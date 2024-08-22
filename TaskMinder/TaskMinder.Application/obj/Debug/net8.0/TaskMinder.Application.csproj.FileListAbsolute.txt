@@ -1,0 +1,16 @@
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\bin\Debug\net8.0\TaskMinder.Application.deps.json
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\bin\Debug\net8.0\TaskMinder.Application.dll
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\bin\Debug\net8.0\TaskMinder.Application.pdb
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\bin\Debug\net8.0\TaskMinder.Communication.dll
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\bin\Debug\net8.0\TaskMinder.Communication.pdb
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\obj\Debug\net8.0\TaskMinder.Application.csproj.AssemblyReference.cache
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\obj\Debug\net8.0\TaskMinder.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\obj\Debug\net8.0\TaskMinder.Application.AssemblyInfoInputs.cache
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\obj\Debug\net8.0\TaskMinder.Application.AssemblyInfo.cs
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\obj\Debug\net8.0\TaskMinder.Application.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\obj\Debug\net8.0\TaskMinder.Application.sourcelink.json
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\obj\Debug\net8.0\TaskMind.A6B7BEE5.Up2Date
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\obj\Debug\net8.0\TaskMinder.Application.dll
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\obj\Debug\net8.0\refint\TaskMinder.Application.dll
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\obj\Debug\net8.0\TaskMinder.Application.pdb
+C:\Users\Leonardo\workspace\CSharp-Rocketseat\TaskMinder\TaskMinder.Application\obj\Debug\net8.0\ref\TaskMinder.Application.dll
