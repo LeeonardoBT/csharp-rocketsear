@@ -1,0 +1,17 @@
+# Diretórios de build
+**/bin/
+**/obj/
+
+# Configurações do Visual Studio
+.vs/
+.vscode/
+
+# Diretórios de pacotes
+**/packages/
+**/node_modules/
+
+# Arquivos de backup do Visual Studio
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
