@@ -1,0 +1,16 @@
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CommonTestUtilities.deps.json
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CommonTestUtilities.dll
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CommonTestUtilities.pdb
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Communication.dll
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\bin\Debug\net8.0\CashFlow.Communication.pdb
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.csproj.AssemblyReference.cache
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.AssemblyInfoInputs.cache
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.AssemblyInfo.cs
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.sourcelink.json
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTe.14C365E1.Up2Date
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.dll
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\refint\CommonTestUtilities.dll
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\CommonTestUtilities.pdb
+C:\Users\Leonardo\Workspace\CSharp-Rocketseat\CashFlow\tests\CommonTestUtilities\obj\Debug\net8.0\ref\CommonTestUtilities.dll

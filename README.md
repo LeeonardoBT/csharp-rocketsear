@@ -7,8 +7,7 @@ Este repositório contém os projetos desenvolvidos durante o curso de C# da Roc
 - [Sobre o Curso](#sobre-o-curso)
 - [Projetos](#projetos)
 - [Como Executar](#como-executar)
-- [Contribuição](#contribuição)
-- [Contato](#contato)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
 
 ## Sobre o Curso
 
@@ -27,6 +26,9 @@ O curso de C# da Rocketseat foi projetado para fornecer uma base sólida na ling
 
 ### 4. TaskMinder
 - **Descrição:** Desafio prático referente ao módulo de organização de projetos e bibliotecas.
+
+### 5. CashFlow
+- **Descrição:** Exemplo de projeto com estrutura de projetos, testes de unidade, tratamento de exceções, arquivo de traduções, conexão a banco de dados, injeção de dependências, assincronismo, princípios SOLID, DDD e geração de relatórios.
 
 ## Como Executar
 
