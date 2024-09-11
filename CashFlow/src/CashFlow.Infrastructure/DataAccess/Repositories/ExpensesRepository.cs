@@ -15,8 +15,6 @@ internal class ExpensesRepository : IExpenseWriteOnlyRepository, IExpenseReadOnl
     public async Task Add(Expense expense)
     {
         await _dbContext.Expenses.AddAsync(expense);
-
-        _dbContext.SaveChanges();
     }
 
     public async Task<bool> Delete(long id)

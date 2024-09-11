@@ -30,6 +30,10 @@ O curso de C# da Rocketseat foi projetado para fornecer uma base sólida na ling
 ### 5. CashFlow
 - **Descrição:** Exemplo de projeto com estrutura de projetos, testes de unidade, tratamento de exceções, arquivo de traduções, conexão a banco de dados, injeção de dependências, assincronismo, princípios SOLID, DDD e geração de relatórios.
 
+### 6. BarberBoss
+- **Descrição:** API para controla de faturamento de uma barbearia, referente ao desafio prático de projeto com estrutura de projetos, testes de unidade, tratamento de exceções, arquivo de traduções, conexão a banco de dados, injeção de dependências, assincronismo, princípios SOLID, DDD e geração de relatórios.
+
+
 ## Como Executar
 
 Para executar qualquer um dos projetos deste repositório, siga os passos abaixo:
