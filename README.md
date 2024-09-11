@@ -16,19 +16,19 @@ O curso de C# da Rocketseat foi projetado para fornecer uma base sólida na ling
 ## Projetos
 
 ### 1. MyFirstAPI
-- **Descrição:** API para destacar conceitos básicos.
+- **Descrição:** API com métodos HTTP para destacar conceitos básicos.
 
 ### 2. MyLibrary
-- **Descrição:** Desafio prático referente ao módulo MyFirstAPI.
+- **Descrição:** Desafio prático referente ao módulo MyFirstAPI, destando métodos HTTP para controlar uma biblioteca, cadastrar, alterar e excluir um livro, assim como consultar os livros.
 
 ### 3. Petfolio
-- **Descrição:** Exemplo de organização de projetos e bibliotecas.
+- **Descrição:** Exemplo de organização de projetos e bibliotecas, com observabilidade de camadas, como API, Application e Communication, usando como módulo de informação um cadastro de Pets para adoção.
 
 ### 4. TaskMinder
-- **Descrição:** Desafio prático referente ao módulo de organização de projetos e bibliotecas.
+- **Descrição:** Desafio prático referente ao módulo de organização de projetos e bibliotecas, com foco em gerenciamento de tarefas.
 
 ### 5. CashFlow
-- **Descrição:** Exemplo de projeto com estrutura de projetos, testes de unidade, tratamento de exceções, arquivo de traduções, conexão a banco de dados, injeção de dependências, assincronismo, princípios SOLID, DDD e geração de relatórios.
+- **Descrição:** Exemplo API, que adota os princípios **Domain-Driven Design (DDD)**, estrutura modular que facilita o entendimento e a manutenção do domínio da aplicação, para oferecer uma solução estruturada e eficaz no controle de despesas pessoais. Baseada em RESTful com métodos HTTP, com documentação Swagger. Testes de unidade abrangentes com FluentAssertions para garantir a funcionalidade e qualidade. Capacidade de exportar relatórios detalhados para PDF e Excel.
 
 ### 6. BarberBoss
 - **Descrição:** API para controla de faturamento de uma barbearia, referente ao desafio prático de projeto com estrutura de projetos, testes de unidade, tratamento de exceções, arquivo de traduções, conexão a banco de dados, injeção de dependências, assincronismo, princípios SOLID, DDD e geração de relatórios.
@@ -65,5 +65,15 @@ Para executar qualquer um dos projetos deste repositório, siga os passos abaixo
 ## Tecnologias Utilizadas
 
 - **C#**
-- **.NET Core**
+- **.NET Core 8**
 - **ASP.NET Core**
+- **My SQL**
+- **EntityFramework**
+- **FluentValidation**
+- **AutoMapper**
+- **ClosedXML**
+- **PDFsharp-MigraDoc**
+- **Bogus**
+- **XUnit**
+- Princípios **Domain-Driven Design (DDD)**
+- **API REST**, utilizando métodos **HTTP**
