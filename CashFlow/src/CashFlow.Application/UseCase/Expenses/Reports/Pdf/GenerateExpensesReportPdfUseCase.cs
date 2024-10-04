@@ -9,6 +9,7 @@ using MigraDoc.DocumentObjectModel.Tables;
 using MigraDoc.Rendering;
 using PdfSharp.Fonts;
 using System.Reflection;
+using CashFlow.Domain.Services.LoggedUser;
 
 namespace CashFlow.Application.UseCase.Expenses.Reports.PDF;
 public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCase
@@ -16,27 +17,31 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
     private const string CURRENCY_SYMBOL = "$";
     private const int HEIGHT_ROW_EXPENSE_TABLE = 25;
     private readonly IExpenseReadOnlyRepository _repository;
+    private readonly ILoggedUser _loggedUser;
 
-    public GenerateExpensesReportPdfUseCase(IExpenseReadOnlyRepository repository)
+    public GenerateExpensesReportPdfUseCase(IExpenseReadOnlyRepository repository, ILoggedUser loggedUser)
     {
         _repository = repository;
+        _loggedUser = loggedUser;
 
         GlobalFontSettings.FontResolver = new ExpensesReportFontResolver();
     }
 
     public async Task<byte[]> Execute(DateTime month)
     {
-        var expenses = await _repository.FilterByMonth(month);
+        var logggedUser = await _loggedUser.Get();
+
+        var expenses = await _repository.FilterByMonth(logggedUser, month);
 
         if (expenses.Count == 0)
         {
             return [];
         }
 
-        var document = CreateDocument(month);
+        var document = CreateDocument(logggedUser.Name, month);
         var page = CreatePage(document);
 
-        CreateHeaderWithProfilePhoneAndName(page);
+        CreateHeaderWithProfilePhoneAndName(logggedUser.Name, page);
 
         var totalExpenses = expenses.Sum(expense => expense.Amount);
         CreateTotalSpentSection(page, month, totalExpenses);
@@ -88,12 +93,12 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
         return RenderDocument(document);
     }
 
-    private Document CreateDocument(DateTime month) 
+    private Document CreateDocument(string author, DateTime month) 
     {
         var document = new Document();
 
         document.Info.Title = $"{ResourceReportGenerationMessages.EXPENSES_FOR} {month:Y}";
-        document.Info.Author = "CashFlow";
+        document.Info.Author = author;
 
         var style = document.Styles["Normal"];
         style!.Font.Name = FontHelper.RALEWAY_REGULAR;
@@ -115,7 +120,7 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
         return section;
     }
 
-    private void CreateHeaderWithProfilePhoneAndName(Section page)
+    private void CreateHeaderWithProfilePhoneAndName(string name, Section page)
     {
         var table = page.AddTable();
         table.AddColumn();
@@ -129,7 +134,7 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
 
         row.Cells[0].AddImage(pathFile);
 
-        row.Cells[1].AddParagraph("Hey, Naruto Uzumaki!");
+        row.Cells[1].AddParagraph($"Hey, {name}!");
         row.Cells[1].Format.Font = new Font { Name = FontHelper.RALEWAY_BLACK, Size = 18 };
         row.Cells[1].VerticalAlignment = VerticalAlignment.Center;
     }
@@ -146,7 +151,7 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
 
         paragraph.AddLineBreak();
 
-        paragraph.AddFormattedText($"{totalExpenses} {CURRENCY_SYMBOL}", new Font { Name = FontHelper.WORKSANS_BLACK, Size = 50 });
+        paragraph.AddFormattedText($"{totalExpenses:f2} {CURRENCY_SYMBOL}", new Font { Name = FontHelper.WORKSANS_BLACK, Size = 50 });
     }
 
     private Table CreateExpenseTable(Section page)
@@ -188,7 +193,7 @@ public class GenerateExpensesReportPdfUseCase : IGenerateExpensesReportPdfUseCas
 
     private void AddAmountForExpense(Cell cell, decimal amount)
     {
-        cell.AddParagraph($"-{amount} {CURRENCY_SYMBOL}");
+        cell.AddParagraph($"-{amount:f2} {CURRENCY_SYMBOL}");
         cell.Format.Font = new Font { Name = FontHelper.WORKSANS_REGULAR, Size = 15, Color = ColorsHelper.BLACK };
         cell.Shading.Color = ColorsHelper.WHITE;
         cell.VerticalAlignment = VerticalAlignment.Center;
