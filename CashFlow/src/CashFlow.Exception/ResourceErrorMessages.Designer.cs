@@ -133,6 +133,15 @@ namespace CashFlow.Exception {
         }
         
         /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Tag type not supported..
+        /// </summary>
+        public static string INVALID_TAG_TYPE {
+            get {
+                return ResourceManager.GetString("INVALID_TAG_TYPE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Consulta uma cadeia de caracteres localizada semelhante a The name is required..
         /// </summary>
         public static string NAME_EMPTY {
@@ -165,6 +174,15 @@ namespace CashFlow.Exception {
         public static string UNKNOW_ERROR {
             get {
                 return ResourceManager.GetString("UNKNOW_ERROR", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta uma cadeia de caracteres localizada semelhante a Wrong password..
+        /// </summary>
+        public static string WRONG_PASSWORD {
+            get {
+                return ResourceManager.GetString("WRONG_PASSWORD", resourceCulture);
             }
         }
     }

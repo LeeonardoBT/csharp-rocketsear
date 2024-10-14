@@ -141,6 +141,9 @@
   <data name="INVALID_PASSWORD" xml:space="preserve">
     <value>The password must be at least 8 characters long, containing at least one uppercase letter, one lowercase letter, one number, and one special character (! @ # % . &amp;).</value>
   </data>
+  <data name="INVALID_TAG_TYPE" xml:space="preserve">
+    <value>Tag type not supported.</value>
+  </data>
   <data name="NAME_EMPTY" xml:space="preserve">
     <value>The name is required.</value>
   </data>
@@ -152,5 +155,8 @@
   </data>
   <data name="UNKNOW_ERROR" xml:space="preserve">
     <value>Unknown error.</value>
+  </data>
+  <data name="WRONG_PASSWORD" xml:space="preserve">
+    <value>Wrong password.</value>
   </data>
 </root>

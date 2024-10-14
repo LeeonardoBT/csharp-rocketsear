@@ -141,6 +141,12 @@
   <data name="INVALID_PASSWORD" xml:space="preserve">
     <value>A senha deve conter 8 caracteres, contendo no mínimo uma letra maiúscula, uma minúscula, um número, e um caracter especial (! @ # % . &amp;).</value>
   </data>
+  <data name="INVALID_TAG_TYPE" xml:space="preserve">
+    <value>Tipo da tag inválido.</value>
+  </data>
+  <data name="NAME_EMPTY" xml:space="preserve">
+    <value>O nome é obrigatório.</value>
+  </data>
   <data name="PAYMENT_TYPE_INVALID" xml:space="preserve">
     <value>Tipo de pagamento inválido.</value>
   </data>
@@ -149,5 +155,8 @@
   </data>
   <data name="UNKNOW_ERROR" xml:space="preserve">
     <value>Erro desconhecido.</value>
+  </data>
+  <data name="WRONG_PASSWORD" xml:space="preserve">
+    <value>Senha incorreta.</value>
   </data>
 </root>
